@@ -1,5 +1,17 @@
 {
-  "dependencies": {
-    "tailwindcss": "^3.4.3"
-  }
+  "name": "codex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "devDependencies": {
+    "plugin": "^0.0.15",
+    "prettier": "^3.2.5"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write '**/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
